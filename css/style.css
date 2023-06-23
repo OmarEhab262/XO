@@ -111,7 +111,7 @@ body {
   top: 81%;
   border-radius: 25px;
   transform: rotate(48deg);
-  /* display: none; */
+  display: none;
   position: absolute;
 }
 
