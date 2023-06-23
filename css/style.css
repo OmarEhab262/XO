@@ -111,7 +111,7 @@ body {
   top: 81%;
   border-radius: 25px;
   transform: rotate(48deg);
-  display: none;
+  /* display: none; */
   position: absolute;
 }
 
@@ -185,6 +185,18 @@ span {
   .lineeight {
 
     left: -46%;
+  }
+
+  .box {
+    max-width: 15%;
+    max-height: 10%;
+    width: 100%;
+    height: 100%;
+    font-size: 40px;
+  }
+
+  .lineeight {
+    top: 13%;
   }
 }
 
