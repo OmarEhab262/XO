@@ -1,0 +1,217 @@
+@font-face {
+  font-family: Bebo;
+  src: url(../fonts/DG-Bebo-B.ttf);
+}
+
+* {
+  font-family: Bebo !important;
+}
+
+body {
+  box-sizing: border-box;
+}
+
+.xo {
+
+  display: flex;
+  width: 100%;
+  height: 100vh;
+  flex-direction: row;
+}
+
+.contaniner {
+  margin-top: 50px;
+  height: 40%;
+  width: 100%;
+  max-width: 700px;
+
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  margin: 0 auto;
+  position: relative;
+
+}
+
+.box {
+  background-color: red;
+  max-width: 20%;
+  max-height: 35%;
+  width: 100%;
+  height: 100%;
+  margin: 25px;
+  color: black;
+  font-size: 120px;
+  font-weight: 900;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  padding-bottom: 15px;
+  text-align: center;
+}
+
+.block {
+  display: block !important;
+}
+
+.lineone,
+.linetwo,
+.linethree {
+  width: 3%;
+  height: 175%;
+  background-color: black;
+  position: absolute;
+  left: 13%;
+  top: -9%;
+  border-radius: 25px;
+  display: none;
+  position: absolute;
+}
+
+.linetwo {
+  left: 43%;
+}
+
+.linethree {
+  left: 72%;
+
+}
+
+.linefour,
+.linefive,
+.linesix {
+  height: 3%;
+  width: 100%;
+  background-color: black;
+  position: absolute;
+  left: -8%;
+  top: 22%;
+  border-radius: 25px;
+  display: none;
+  position: absolute;
+
+}
+
+.linefive {
+  top: 75%;
+}
+
+.linesix {
+  top: 127%;
+}
+
+.lineseven,
+.lineeight {
+  height: 21px;
+  width: 750px;
+  background-color: black;
+  position: absolute;
+  left: -13%;
+  top: 81%;
+  border-radius: 25px;
+  transform: rotate(48deg);
+  display: none;
+  position: absolute;
+}
+
+.lineeight {
+  transform: rotate(313deg);
+  top: 75%;
+}
+
+span {
+  font-size: 25px;
+  margin: 15px 5px;
+}
+
+.hh {
+  width: 200px;
+  height: 250px;
+  background-color: #eee;
+  border-radius: 15px;
+  padding: 15px;
+}
+
+.colorsss {
+  display: flex;
+  align-items: start;
+  justify-content: center;
+  flex-direction: column;
+  padding: 0 !important;
+}
+
+.colorsss h2 {
+  margin: 0;
+}
+
+.colorsss .colorddd {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.colorsss .lol {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  border: 1px solid black;
+  cursor: pointer;
+}
+
+.colorsss .red {
+  background-color: red;
+}
+
+.colorsss .blue {
+  background-color: blue;
+}
+
+.colorsss .green {
+  background-color: green;
+}
+
+.colorsss .yellow {
+  background-color: yellow;
+}
+
+@media only screen and (max-width: 600px) {
+  .xo {
+    flex-direction: column;
+  }
+
+  .lineseven,
+  .lineeight {
+
+    left: -46%;
+  }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+  .xo {
+    flex-direction: column;
+  }
+
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+  .xo {
+    flex-direction: column;
+  }
+
+
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+  .xo {
+    flex-direction: row;
+  }
+
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {}
